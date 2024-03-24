@@ -1,0 +1,13 @@
+h1 {
+    color: gray;
+    animation: myanimation 15s infinite;
+}
+
+@keyframes myanimation {
+    from {
+        color: rgb(0, 255, 170);
+    }
+    to {
+        color: rgb(0, 254, 195);
+    }
+}
